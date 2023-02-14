@@ -2,7 +2,7 @@
 require_relative 'lib/version_information'
 
 Gem::Specification.new do |spec|
-  spec.name          = "microsoft_graph_rights"
+  spec.name          = "microsoft_graph"
   spec.version       = MicrosoftGraph::VersionInformation::VERSION
   spec.authors       = 'Microsoft Corporation'
   spec.email         = 'graphsdkpub+ruby@microsoft.com'
@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency 'microsoft_graph_core_rights'
+  spec.add_runtime_dependency 'microsoft_graph_core', '>= 0.1', '< 0.3'
   spec.add_development_dependency 'rake', '~> 13.0'
   spec.add_development_dependency "rspec", "~> 3.0"
 end

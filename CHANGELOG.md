@@ -11,6 +11,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+### Changed
+Set minimum Ruby version to 2.7.4
+
 ## [0.15.0] - 2023-02-09
 
 ### Changed
